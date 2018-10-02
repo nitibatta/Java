@@ -1,0 +1,16 @@
+public class BooleanToString {
+  public static String convert(boolean b){
+  
+  String value=String.valueOf(b);
+    if(value=="true")
+    {
+      return "true";
+    } 
+    else 
+    {
+      return "false";
+    }
+    
+  }
+
+}
