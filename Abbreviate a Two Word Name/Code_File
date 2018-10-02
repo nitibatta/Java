@@ -4,7 +4,7 @@ public class AbbreviateTwoWords {
   String arr[]=name.split(" ");
   char a=arr[0].charAt(0);
   char b=arr[1].charAt(0);
-  name=Character.toString(a)+"."+ Character.toString(b); 
+  name=Character.toString(a).toUpperCase()+"."+ Character.toString(b).toUpperCase(); 
     return name;
   }
 }
